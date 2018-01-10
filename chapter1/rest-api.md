@@ -41,7 +41,7 @@ dependencies {
 }
 ```
 
-Now lets create the application that will be used to start up our server. 
+Now lets create the application that will be used to start up our server.
 
 ```
 package com.example.demo;
@@ -58,7 +58,7 @@ public class DemoApplication {
 }
 ```
 
-The last step is to create REST API controller that will respond to user requests. 
+The last step is to create REST API controller that will respond to user requests.
 
 ```
 package com.example.demo;
@@ -104,7 +104,9 @@ If we want to run the application without Gradle, we can use `java -jar` from th
 java -jar build/libs/demo-0.0.1-SNAPSHOT.jar
 ```
 
-After the application is started up, we can try to call the api from the command line. 
+> Check [Docker Handbook](https://www.gitbook.com/book/ondrej-kvasnovsky/docker-handbook/details) to see how to run Java application in Docker.
+
+After the application is started up, we can try to call the api from the command line.
 
 ```
 ➜ curl localhost:8080/hello
