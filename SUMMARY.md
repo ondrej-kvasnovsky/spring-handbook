@@ -1,3 +1,6 @@
 # Summary
 
-* [First Chapter](chapter1.md)
+* [Introduction](README.md)
+* [Web Applications](chapter1.md)
+  * [REST API](chapter1/rest-api.md)
+

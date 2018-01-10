@@ -1,3 +1,10 @@
-# My Awesome Book
+# Spring Handbook
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+> _this book is always in progress_
+
+This handbook contains various examples from Spring Framework portfolio. 
+
+### Building the code
+
+Gradle is used to build all the code here. Remmember you can generate Spring Gradle project using [Initializr](https://start.spring.io/#!type=gradle-project).
+
