@@ -110,7 +110,7 @@ After the application is started up, we can try to call the api from the command
 
 ```
 ➜ curl localhost:8080/hello
-Hello%
+Hello
 ```
 
 
