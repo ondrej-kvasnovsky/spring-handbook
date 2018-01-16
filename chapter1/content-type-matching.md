@@ -2,6 +2,10 @@
 
 If we want to sent e.g. email as path variable, Spring Content matching algorithm will think ".com" from the email address is trying to say what should be the content type.
 
+```
+@GetMapping(value = "/user/{email}", produces = APPLICATION_JSON_UTF8_VALUE)
+```
+
 We can turn this off using the following config.
 
 ```
